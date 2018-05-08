@@ -1,0 +1,69 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+img {
+  box-shadow: 10px 10px 5px black;
+  width: 20%; 
+  float: left; 
+  margin : 5px;
+}
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 90px;
+  padding-top: 1px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 20px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo {
+  font-weight: bold;
+  background-color: navy;
+  color: white;
+  font-size: 30px;
+  font-style:italic;
+}
+
+.first image {
+  width: 20%; 
+  float: left; 
+  margin : 5px;
+  box-shadow: 10px 10px 5px black;
+
+}
+
+.text {
+  margin-top: 10px;
+  float: right;
+}
